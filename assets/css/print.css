@@ -1,0 +1,154 @@
+/* ============================================================
+   9. CETAK — lembar hasil yang bersih
+   ============================================================ */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  body {
+    font-size: 11pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .site-header,
+  .site-footer,
+  .no-print,
+  .toast-viewport,
+  .modal-backdrop,
+  .boot-screen,
+  .page-head-aside,
+  .result-bottom,
+  .quiz-sidebar,
+  .guide-aside {
+    display: none !important;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+
+  .page {
+    padding: 0;
+    animation: none;
+  }
+
+  .page-stage {
+    animation: none;
+  }
+
+  .page-head {
+    margin-bottom: 12pt;
+    padding-bottom: 10pt;
+  }
+
+  .page-head h1 {
+    font-size: 22pt;
+  }
+
+  .page-lead {
+    font-size: 10pt;
+  }
+
+  .pill {
+    border: 1px solid #c9d9e7;
+  }
+
+  .result-hero {
+    padding: 16pt 18pt;
+    border-radius: 14pt;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  .result-hero-main h2 {
+    font-size: 18pt;
+  }
+
+  .result-scoreline > strong {
+    font-size: 34pt;
+  }
+
+  .result-summary {
+    font-size: 9pt;
+  }
+
+  .result-hero-actions {
+    display: none !important;
+  }
+
+  .result-ring-wrap {
+    padding: 0;
+  }
+
+  .result-ring-wrap .score-ring {
+    width: 110pt !important;
+    height: 110pt !important;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7pt;
+    margin-top: 10pt;
+  }
+
+  .stat-card {
+    padding: 9pt 10pt;
+    box-shadow: none;
+  }
+
+  .stat-card strong {
+    font-size: 15pt;
+  }
+
+  .result-section {
+    margin-top: 16pt;
+  }
+
+  .result-section-head {
+    margin-bottom: 8pt;
+  }
+
+  .review-card {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  .review-card summary {
+    padding: 8pt 10pt;
+  }
+
+  .review-body {
+    display: block !important;
+    padding: 0 10pt 10pt;
+  }
+
+  .review-explanation ol {
+    font-size: 9pt;
+  }
+
+  .history-card {
+    box-shadow: none;
+  }
+
+  .history-row {
+    padding: 6pt 10pt;
+    break-inside: avoid;
+  }
+
+  a[href]::after {
+    content: none !important;
+  }
+
+  .card {
+    box-shadow: none;
+  }
+}
