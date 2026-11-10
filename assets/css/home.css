@@ -851,3 +851,53 @@
   font-size: 11px;
   line-height: 1.55;
 }
+
+/* ---------- identitas pembuat ---------- */
+.creator-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+  padding: 20px 24px;
+}
+
+.creator-mark {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--navy-800), var(--navy-700));
+  color: #8be6ff;
+  box-shadow: inset 0 0 0 1px rgba(139, 230, 255, 0.18);
+}
+
+.creator-copy {
+  min-width: 0;
+}
+
+.creator-copy h3 {
+  font-size: 17px;
+}
+
+.creator-copy p {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.creator-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: auto;
+  padding: 8px 13px;
+  border: 1px solid var(--blue-100);
+  border-radius: 999px;
+  background: var(--blue-50);
+  color: var(--blue-700);
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+}

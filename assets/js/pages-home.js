@@ -285,6 +285,16 @@
           })}
         </div>
       </section>
+
+      <section className="card creator-card">
+        <span className="creator-mark"><${Icon} name="user" size=${22} /></span>
+        <div className="creator-copy">
+          <span className="mini-kicker">Pembuat web</span>
+          <h3>Ripka Anggiana</h3>
+          <p>NPM 262151111118 · Kelas B</p>
+        </div>
+        <span className="creator-tag"><${Icon} name="graduation" size=${14} /> Matematika LKPD</span>
+      </section>
     </div>`;
   }
 

@@ -300,6 +300,14 @@
     align-items: flex-start;
     gap: 14px;
   }
+
+  .footer-side {
+    align-items: flex-start;
+  }
+
+  .footer-credit {
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 680px) {
@@ -484,6 +492,15 @@
 
   .journey-step:not(:last-child)::after {
     display: none;
+  }
+
+  .creator-card {
+    flex-wrap: wrap;
+    padding: 18px;
+  }
+
+  .creator-tag {
+    margin-left: 62px;
   }
 
   .module-tabs {
@@ -973,6 +990,12 @@
 
   .journey-steps {
     grid-template-columns: 1fr;
+  }
+
+  .creator-tag {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
   }
 
   .module-tabs {

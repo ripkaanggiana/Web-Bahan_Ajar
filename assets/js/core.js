@@ -350,10 +350,20 @@
             <p>Aturan Sinus & Aturan Kosinus · Kelas X SMA/MA dan SMK/MAK</p>
           </div>
         </div>
-        <div className="footer-note">
-          <span><${Icon} name="lock" size=${13} /> Data belajar tersimpan di browser ini</span>
-          <span className="footer-dot"></span>
-          <span>Dibuat untuk belajar mandiri</span>
+        <div className="footer-side">
+          <div className="footer-credit">
+            <span className="footer-credit-label">Pembuat</span>
+            <b>Ripka Anggiana</b>
+            <span className="footer-dot"></span>
+            <span>NPM 262151111118</span>
+            <span className="footer-dot"></span>
+            <span>Kelas B</span>
+          </div>
+          <div className="footer-note">
+            <span><${Icon} name="lock" size=${13} /> Data belajar tersimpan di browser ini</span>
+            <span className="footer-dot"></span>
+            <span>Dibuat untuk belajar mandiri</span>
+          </div>
         </div>
       </div>
     </footer>`;
